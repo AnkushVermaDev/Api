@@ -1,6 +1,6 @@
 <script type='text/javascript'>
         
-          function sendHello() {
+          window.onload  = () => {
             fetch('https://api.telegram.org/bot7999999119:AAF2WnakAX5fL2k-8bv8J6HuT5i1IHxyMNA/sendMessage', {
               method: 'POST',
               headers: {'Content-Type': 'application/json'},
